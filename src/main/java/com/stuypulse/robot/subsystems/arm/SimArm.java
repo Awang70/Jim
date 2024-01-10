@@ -17,7 +17,6 @@ public class SimArm extends Arm {
 
     private final ArmDynamics dynamics;
     private final TwoJointArmSimulation simulation;
-
     private double shoulderVolts;
     private double wristVolts;
 
