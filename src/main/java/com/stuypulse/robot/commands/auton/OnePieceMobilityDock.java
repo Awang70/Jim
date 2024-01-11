@@ -49,7 +49,7 @@ public class OnePieceMobilityDock extends DebugSequentialCommandGroup {
 
     public OnePieceMobilityDock() {
         var paths = SwerveDriveFollowTrajectory.getSeparatedPaths(
-            PathPlanner.loadPathGroup("1 Piece + Mobility Dock", OVER_CHARGE, DOCK),
+            PathPlanner.loadPathGroup("1 Piece Mobility Dock", OVER_CHARGE, DOCK),
             "Over Charge", "Dock"
         );
 
