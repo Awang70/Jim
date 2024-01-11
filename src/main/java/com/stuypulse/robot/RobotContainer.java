@@ -267,6 +267,8 @@ public class RobotContainer {
         // autonChooser.addOption("Three Piece Bump Removed Red", new BCThreePieceBumpRed());
         autonChooser.addOption("Three Piece Bump", new ThreePieceBump());
 
+        autonChooser.addOption("Patty Flipper 1", new PattyFlipper());
+
         SmartDashboard.putData("Autonomous", autonChooser);
     }
 
